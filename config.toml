@@ -11,6 +11,8 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
 
+defaultContentLanguage = 'de'
+
 ############################# Plugins ##########################
 # css plugins
 [[params.plugins.css]]
@@ -195,13 +197,22 @@ link = "#"
 icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
+################################ German Language ########################
+[Languages.de]
+languageName = "DE"
+languageCode = "De-de"
+contentDir = "content/deutsch"
+weight = 1
+home = "Heim"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+
 
 ################################ English Language ########################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 home = "Home"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
@@ -210,6 +221,6 @@ copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
-weight = 2
+weight = 3
 home = "Accueil"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
