@@ -1,12 +1,16 @@
 {{ define "main" }}
 
+{{ $data := index site.Data site.Language.Lang }}
+
 {{ partial "navigation.html" . }}
 
 {{ partial "Landingpage/herobanner.html" . }}
 
-{{ partial "about.html" . }}
+{{ partial "funfacts.html" . }}
 
-{{ partial "feature.html" . }}
+{{ partial "Landingpage/picLeftTextRight.html" $data.terrazzo }}
+
+{{ partial "about.html" . }}
 
 {{ partial "cta.html" . }}
 
@@ -15,8 +19,6 @@
 {{ partial "skill.html" . }}
 
 {{ partial "portfolio.html" . }}
-
-{{ partial "funfacts.html" . }}
 
 {{ partial "team.html" . }}
 
