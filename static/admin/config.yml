@@ -21,3 +21,15 @@ collections:
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" }
             ]}]}
+      - file: "data/de/funfacts.yml"
+        label: "funfacts"
+        name: "Funfacts"
+        fields:
+          - { label: "Funfacts", name: "funfacts", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Fakten", name: "counter_item", widget: "list", fields: [
+              { label: "Titel", name: "title", widget: "string" },
+              { label: "Icon", name: "icon", widget: "string" },
+              { label: "Count", name: "count", widget: "string" }
+            ] } ] }

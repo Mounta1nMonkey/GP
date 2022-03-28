@@ -771,27 +771,51 @@ a:hover {
   Item counter section
 ==================================================================*/
 .counters-item {
+  color: #1d1d1d;
   padding: 25px 0;
   margin-bottom: 10px;
-  background: #292F36;
 }
 
 .counters-item i {
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 25px;
   display: inline-block;
 }
 
 .counters-item span {
   display: block;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 25px;
   line-height: 50px;
 }
 
 .counters-item h3 {
-  font-size: 20px;
+  color: #1d1d1d;
+  font-size: 15px;
   margin: 0;
+}
+
+.counters-item .iconBox{
+  padding-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.counters-item:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  left: 0;
+  background-color: #1d1d1d;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.counters-item:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 /*=================================================================
