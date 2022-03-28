@@ -2,12 +2,12 @@
 
 {{ if $data.funfacts.funfacts.enable }}
 {{ with $data.funfacts.funfacts }}
-<section class="section" style='height:300px; padding-top: 50px; padding-bottom: 50px; background-image: url("{{ .bg_image | absURL }}"); background-size: cover'>
+<section class="section" style='min-height:300px; padding-top: 50px; padding-bottom: 50px; background-image: url("{{ .bg_image | absURL }}"); background-size: cover'>
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-between">
             {{ $len := (len .counter_item)}}
             {{ range $index, $element := .counter_item }}
-            <div class="col-lg-3 col-md-4 col-12 text-center wow fadeInDown" data-wow-duration="500ms">
+            <div class="col-lg-2 col-md-6 col-12 text-center wow fadeInDown" data-wow-duration="500ms">
                 <div class="counters-item justify-content-center">
                     <div class="mx-auto iconBox">
                         <i class="{{ $element.icon }}"></i>

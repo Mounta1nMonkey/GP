@@ -4,7 +4,7 @@ funfacts:
   bg_image: "images/startseite/kabiur-rahman-riyad-TVTAc8NQdjQ-unsplash.jpg"
   counter_item:
     # counter item loop
-    - title : "Abgeschlossene Projekte"
+    - title : "Projekte '22"
       icon : "ti-ruler-alt" # themify icon pack : https://themify.me/themify-icons
       count : "320"
     
