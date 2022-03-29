@@ -97,11 +97,6 @@ name = "Dropdown 2"
 url = "#"
 weight = 2
 
-[[Languages.de.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
-
 
 
 ################### English Navigation ########################
