@@ -30,7 +30,7 @@
                         <div class="col-lg-6">
                             <div class="media">
                                 {{with .icon}}
-                                <div class="align-self-start mr-3">
+                                <div class="align-self-start mr-3" style="width:30px; heigth:30px">
                                     <i class="{{ . }}"></i>
                                 </div>
                                 {{ end }}
@@ -44,7 +44,7 @@
                     </div>
                     {{ if .button }}
                     <a data-duration-in="0.5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in="1"
-                       href="{{ .button.link | relLangURL }}" class="btn btn-transparent text-uppercase">{{ .button.label }}</a>
+                       href="{{ .button.link | relLangURL }}" class="btn btn-one text-uppercase"><span>{{ .button.label }}</span></a>
                     {{ end }}
                 </div>
             </div>

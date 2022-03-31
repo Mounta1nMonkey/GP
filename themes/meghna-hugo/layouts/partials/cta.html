@@ -12,7 +12,7 @@
 				<p class="mb-5">{{ .content | markdownify }}</p>
 				{{ if .button.enable }}
 				{{ with .button }}
-				<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>
+				<a href="{{ .link }}" class="btn btn-one page-scroll"><span>{{ .label }}</span></a>
 				{{ end }}
 				{{ end }}
 			</div>
