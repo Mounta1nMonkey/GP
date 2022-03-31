@@ -85,3 +85,17 @@ collections:
               { label: "Content", name: "content", widget: "text" },
               { label: "Image", name: "bg_image", widget: "image" }
             ] } ] }
+      - file: "data/de/jobscta.yml"
+        label: "Jobs CTA"
+        name: "jobscta"
+        fields:
+          - { label: "CTA", name: "cta", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Image", name: "bg_image", widget: "image" },
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Content", name: "content", widget: "markdown" },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Aktive", name: "enable", widget: "boolean", default: true },
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" }
+            ] } ] }

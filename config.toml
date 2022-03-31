@@ -45,57 +45,60 @@ link = "plugins/google-map/map.js"
 
 ################### Deutsch Navigation ########################
 [[Languages.de.menu.main]]
-name = "about"
-url = "#about"
+name = "Terrazzo"
+url = "Terrazzo"
 weight = 1
 
 [[Languages.de.menu.main]]
-name = "services"
-url = "#services"
+name = "Sichtspachtelmasse"
+url = "sichtspachtelmasse"
 weight = 2
 
 [[Languages.de.menu.main]]
-name = "portfolio"
-url = "#portfolio"
+name = "Professional"
 weight = 3
-
-[[Languages.de.menu.main]]
-name = "team"
-url = "#team"
-weight = 4
-
-[[Languages.de.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
-
-[[Languages.de.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-
-[[Languages.de.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
-
-
-[[Languages.de.menu.main]]
-name = "Dropdown"
-weight = 7
 hasChildren = true
 
 [[Languages.de.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 1"
-url = "#"
+parent = "Professional"
+name = "Industrieböden"
+url = "industrieboeden"
 weight = 1
 
 [[Languages.de.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 2"
-url = "#"
+parent = "Professional"
+name = "Beschichtungen"
+url = "beschichtungen"
 weight = 2
+
+[[Languages.de.menu.main]]
+parent = "Professional"
+name = "Schnellzementestrich"
+url = "schnellzementestrich"
+weight = 3
+
+[[Languages.de.menu.main]]
+parent = "Professional"
+name = "Sonderkonstruktion"
+url = "sonderkonstruktion"
+weight = 4
+
+
+[[Languages.de.menu.main]]
+name = "Karriere"
+url = "karriere"
+weight = 4
+
+[[Languages.de.menu.main]]
+name = "Team"
+url = "team"
+weight = 5
+
+[[Languages.de.menu.main]]
+name = "Kontakt"
+url = "kontakt"
+weight = 6
+
 
 
 
@@ -204,8 +207,8 @@ weight = 8
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
+description = "G&P Estrich & Terrazzo Website"
+author = "Mountain Monkey"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
