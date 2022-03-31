@@ -1,0 +1,19 @@
+sichtspachtelmasse:
+  enable: true
+  image: "images/uploads/csm_header_BX_Ellerstadt-AmHohenweg-IN-06_1600x540px_752e203250.jpg"
+  title: Sichtspachtelmasse
+  content: Zementgebundene Sichtspachtelmassen, wie sie auch im Ausbauhaus Neukölln zum Einsatz kamen, zeichnen sich durch ein edles Erscheinungsbild sowie robuste Oberflächen aus. Besonders in hochfrequentierten Räumen sind entsprechende Bodensysteme sehr gefragt.
+  benefits:
+    - icon: "ti-plus"
+      title: Sehr langer Lebensdauer
+      content: "der dank Nachschliff und -politur auch noch nach Jahren wieder wie neu aussehen kann."
+    - icon: "ti-plus"
+      title: Keine ungesunden oder geruchsbildenden Ausdünstungen
+      content: "Da klassischer Terrazzo aus mineralischen Stoffen besteht, hat er keine ungesunden oder geruchsbildenden Ausdünstungen."
+    - icon: "ti-plus"
+      title: Terrazzo besitzt eine hohe Tragfähigkeit und Abriebfestigkeit
+      content: "Deshalb eignet er sich für besonders beanspruchte Flächen, vor allem wenn man harte Gesteinskörnungen einsetzt."
+  button:
+    enable: true
+    link: sichtspachtelmasse
+    label: Mehr erfahren

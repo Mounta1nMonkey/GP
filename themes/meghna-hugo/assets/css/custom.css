@@ -1,0 +1,29 @@
+.darkner {
+}
+
+.darkner:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.professional{}
+
+.professional:hover{
+    position:relative;
+    animation-name: enlarger2;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    z-index: 50;
+}
+
+@keyframes enlarger2 {
+    0%   {
+        transform: scale(1);}
+    100% {
+        transform: scale(1.1);}
+}

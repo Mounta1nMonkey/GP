@@ -326,6 +326,10 @@ a:hover {
   background: #292F36;
 }
 
+.section-bg-light {
+  background: #f9f9f9;
+}
+
 .overly {
   position: relative;
 }
