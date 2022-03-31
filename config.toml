@@ -46,7 +46,7 @@ link = "plugins/google-map/map.js"
 ################### Deutsch Navigation ########################
 [[Languages.de.menu.main]]
 name = "Terrazzo"
-url = "Terrazzo"
+url = "terrazzo"
 weight = 1
 
 [[Languages.de.menu.main]]
