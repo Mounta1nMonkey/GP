@@ -1,7 +1,7 @@
 terrazzo:
   enable: true
   image: "images/uploads/0_fmg_tiles_venice_villa_venice_coral_full.jpg"
-  title: Terrazzo
+  title: Trendmaterial Terrazzo
   content: Was ist Terrazzo überhaupt? Terrazzo besteht aus dekorativen, oft verschieden farbigen sogenannten Zuschlagstoffen, die auf eine zementgebundene Estrich-Unterlage aufgetragen werden. Diese charakteristischen Gesteinssplitter sind zum Beispiel Marmor, Kalkstein, Dolomit, Granit oder Flusskies.
   benefits:
     - icon: "ti-plus"

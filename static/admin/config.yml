@@ -71,3 +71,17 @@ collections:
               { label: "Link", name: "link", widget: "string" },
               { label: "Label", name: "label", widget: "string" }
             ] } ] }
+      - file: "data/de/professional.yml"
+        label: "professional"
+        name: "Professional"
+        fields:
+          - { label: "Professional", name: "professional", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Content", name: "content", widget: "text" },
+            { label: "Items", name: "items", widget: "list", fields: [
+              { label: "Icon", name: "icon", widget: "string" },
+              { label: "Titel", name: "item", widget: "string" },
+              { label: "Content", name: "content", widget: "text" },
+              { label: "Image", name: "bg_image", widget: "image" }
+            ] } ] }

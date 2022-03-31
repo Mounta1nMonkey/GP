@@ -14,9 +14,13 @@
 
 {{ partial "Landingpage/professional.html" . }}
 
+{{ partial "cta.html" $data.jobscta }}
+
+{{ partial "Landingpage/teamTeaser.html" . }}
+
 {{ partial "about.html" . }}
 
-{{ partial "cta.html" . }}
+{{ partial "cta.html" $data.cta }}
 
 {{ partial "service.html" . }}
 

@@ -43,7 +43,7 @@
 }
 
 .professional:hover i{
-    color: #ff2600;
+    color: #fff;
 }
 
 @keyframes enlarger2 {
@@ -53,4 +53,30 @@
         transform: scale(1.1);
         box-shadow: 5px 10px 18px #000000;
     }
+}
+
+.border-terrazzo{
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.rotate{
+    transform: rotate(-90deg);
+
+    /* Legacy vendor prefixes that you probably don't need... */
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }

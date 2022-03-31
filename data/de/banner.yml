@@ -1,9 +1,9 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image : "images/uploads/hero-area.jpg"
+  bg_image : "images/uploads/emma-raphael-ttS--i2y9Bo-unsplash.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Hallo Welt Experience the new reality"
+  title : "Estrich die Welt, weil geil!"
   content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
   button:
     enable : true

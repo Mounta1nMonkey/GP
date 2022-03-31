@@ -129,7 +129,7 @@ a:hover {
 }
 
 .border-meghna:before {
-  background-color: #fff;
+  background-color: #c3cddb;
   content: '';
   height: 6px;
   left: 50%;
@@ -137,7 +137,6 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #ff2600;
 }
 
 .color {
@@ -307,7 +306,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #ff2600;
+  color: #c3cddb;
 }
 
 .title p {
@@ -336,7 +335,7 @@ a:hover {
 
 .overly:before {
   content: '';
-  background: rgba(0, 0, 0, 0.096);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   right: 0;
@@ -480,7 +479,6 @@ a:hover {
 .hero-area .block h1 {
   font-size: 90px;
   color: #fff;
-  text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -631,7 +629,7 @@ a:hover {
 
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #ff2600;
+  color: #c3cddb;
 }
 
 .about-2 .content-block .media h4 {
@@ -648,12 +646,12 @@ a:hover {
 
 .call-to-action h2 {
   font-weight: 700;
-  color: #444;
+  color: #c3cddb;
 }
 
 .call-to-action p {
   font-size: 16px;
-  color: #666;
+  color: #c3cddb;
 }
 
 .call-to-action .btn-main {

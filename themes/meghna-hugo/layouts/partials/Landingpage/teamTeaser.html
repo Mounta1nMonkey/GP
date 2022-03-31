@@ -1,0 +1,26 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ with $data.team.team }}
+{{"<!-- feature -->" | safeHTML}}
+<section class="section section-bg about-2 padding-0" id="feature">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 padding-0" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
+                <!-- this image is for trigger this section fallback background image -->
+                <img src="{{ .image_webp | absURL }}" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'">
+            </div>
+            <div class="col-lg-6">
+                <div class="content-block">
+                    <h2 class="mb-4">{{ .title | markdownify }}</h2>
+                    <p class="mb-5">{{ .content | markdownify }}</p>
+                    {{ if .button }}
+                    <a data-duration-in="0.5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in="1"
+                       href="{{ .button.link | relLangURL }}" class="btn btn-transparent text-uppercase">{{ .button.label }}</a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- /feature -->" | safeHTML}}
+{{ end }}
