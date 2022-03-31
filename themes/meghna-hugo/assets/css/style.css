@@ -137,7 +137,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #ff2600;
 }
 
 .color {
@@ -307,7 +307,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #ff2600;
 }
 
 .title p {
@@ -631,7 +631,7 @@ a:hover {
 
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #57cbcc;
+  color: #ff2600;
 }
 
 .about-2 .content-block .media h4 {
