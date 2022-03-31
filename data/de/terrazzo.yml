@@ -1,1 +1,19 @@
-
+terrazzo:
+  enable: true
+  image: "images/uploads/0_fmg_tiles_venice_villa_venice_coral_full.jpg"
+  title: Terrazzo
+  content: Was ist Terrazzo überhaupt? Terrazzo besteht aus dekorativen, oft verschieden farbigen sogenannten Zuschlagstoffen, die auf eine zementgebundene Estrich-Unterlage aufgetragen werden. Diese charakteristischen Gesteinssplitter sind zum Beispiel Marmor, Kalkstein, Dolomit, Granit oder Flusskies.
+  benefits:
+    - icon: "ti-plus"
+      title: Sehr langer Lebensdauer
+      content: "der dank Nachschliff und -politur auch noch nach Jahren wieder wie neu aussehen kann."
+    - icon: "ti-plus"
+      title: Keine ungesunden oder geruchsbildenden Ausdünstungen
+      content: "Da klassischer Terrazzo aus mineralischen Stoffen besteht, hat er keine ungesunden oder geruchsbildenden Ausdünstungen."
+    - icon: "ti-plus"
+      title: Terrazzo besitzt eine hohe Tragfähigkeit und Abriebfestigkeit
+      content: "Deshalb eignet er sich für besonders beanspruchte Flächen, vor allem wenn man harte Gesteinskörnungen einsetzt."
+  button:
+    enable: true
+    link: terrazzo
+    label: Mehr erfahren
