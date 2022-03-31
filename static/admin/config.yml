@@ -8,8 +8,8 @@ collections:
     label: "Startseite"
     files:
       - file: "data/de/banner.yml"
-        label: "herobanner"
-        name: "Hero Banner"
+        label: "Hero Banner"
+        name: "herobanner"
         fields:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Aktive", name: "enable", widget: "boolean", default: true },
@@ -22,8 +22,8 @@ collections:
               { label: "Link", name: "link", widget: "string" }
             ]}]}
       - file: "data/de/funfacts.yml"
-        label: "funfacts"
-        name: "Funfacts"
+        label: "Funfacts"
+        name: "funfacts"
         fields:
           - { label: "Funfacts", name: "funfacts", widget: "object", fields: [
             { label: "Aktive", name: "enable", widget: "boolean", default: true },
@@ -34,8 +34,8 @@ collections:
               { label: "Count", name: "count", widget: "string" }
             ] } ] }
       - file: "data/de/terrazzo.yml"
-        label: "terrazzo"
-        name: "Terrazzo"
+        label: "Terrazzo"
+        name: "terrazzo"
         fields:
           - { label: "Terrazzo", name: "terrazzo", widget: "object", fields: [
             { label: "Aktive", name: "enable", widget: "boolean", default: true },
@@ -53,8 +53,8 @@ collections:
               { label: "Label", name: "label", widget: "string" }
             ]}] }
       - file: "data/de/sichtspachtelmasse.yml"
-        label: "sichtspachtelmasse"
-        name: "Sichtspachtelmasse"
+        label: "Sichtspachtelmasse"
+        name: "sichtspachtelmasse"
         fields:
           - { label: "Sichtspachtelmasse", name: "sichtspachtelmasse", widget: "object", fields: [
             { label: "Aktive", name: "enable", widget: "boolean", default: true },
@@ -72,8 +72,8 @@ collections:
               { label: "Label", name: "label", widget: "string" }
             ] } ] }
       - file: "data/de/professional.yml"
-        label: "professional"
-        name: "Professional"
+        label: "Professional"
+        name: "professional"
         fields:
           - { label: "Professional", name: "professional", widget: "object", fields: [
             { label: "Aktive", name: "enable", widget: "boolean", default: true },
