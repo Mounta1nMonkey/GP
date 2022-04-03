@@ -174,3 +174,7 @@
         transform: rotate(45deg);
     }
 }
+
+#navigation a{
+    font-weight: 200;
+}
