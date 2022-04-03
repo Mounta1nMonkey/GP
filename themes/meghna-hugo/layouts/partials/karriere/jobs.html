@@ -1,0 +1,22 @@
+{{"<!-- Start Jobs Section -->" | safeHTML}}
+<section id="blog" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeInDown">
+                    <h2> {{ with i18n "jobsTitle" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+							{{ with i18n "jobsTitle" }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+
+            {{ range (where site.RegularPages "Section" "==" "karriere")}}
+            {{ .Render "article"}}
+            {{ end }}
+
+        </div>
+    </div>
+</section>
+{{"<!-- /Jobs -->" | safeHTML}}

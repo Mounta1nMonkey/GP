@@ -2,6 +2,6 @@
 title: Karriere
 banner:
     title: Karriere
-    content: Lorem Ipsum
-    bg_image: images/uploads/annie-spratt-goholCAVTRs-unsplash.jpg
+    content: Wir wachsen ständig und sind stets auf der Suche nach motivierten Mitarbeiter*innen.
+    bg_image: images/uploads/markus-spiske-vrbZVyX2k4I-unsplash.jpg
 ---
