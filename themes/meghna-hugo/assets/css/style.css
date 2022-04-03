@@ -8,12 +8,12 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 */
 /*=== MEDIA QUERY ===*/
 html {
-  background-color: #353b43;
+  background-color: #46494b;
   color: #737f8a;
 }
 
 body {
-  background-color: #353b43;
+  background-color: #1b242d;
   font-family: "Anaheim", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
@@ -322,7 +322,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: #2d3540;
 }
 
 .section-bg-light {
@@ -410,7 +410,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: #192634;
   width: 100%;
   margin-bottom: 0;
 }

@@ -4,24 +4,21 @@
 {{"<!-- feature -->" | safeHTML}}
 <section class="section-bg about-2 padding-0" id="feature">
     <div class="container-fluid">
-        <div class="row justify-content-center p-5">
-            <div class="col-lg-12">
-                {{"<!-- section title -->" | safeHTML}}
-                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                    <h2> {{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-                    {{ with .title }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
-                    <div class="border-meghna"></div>
-                </div>
-            </div>
-            <div class="col-8 text-center">
-                <p>{{ .content }}</p>
-            </div>
-            {{"<!-- /section title -->" | safeHTML}}
-        </div>
         <div class="row">
             <div class="col-lg-7">
                 <div class="content-block">
                     <div class="row mb-4">
+                        <div class="col-lg-12">
+                        {{"<!-- section title -->" | safeHTML}}
+                        <div class="title wow fadeIn" data-wow-duration="1500ms" style="padding-bottom: 0">
+                            <h2> {{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+                    {{ with .title }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
+
+                        </div>
+                        <p>{{ .content }}</p>
+
+                        {{"<!-- /section title -->" | safeHTML}}
+                        </div>
                         {{ range .benefits }}
                         <div class="col-lg-6">
                             <div class="media">
