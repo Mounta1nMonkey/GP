@@ -632,6 +632,11 @@ a:hover {
   color: #c3cddb;
 }
 
+.media i {
+  font-size: 30px;
+  color: #c3cddb;
+}
+
 .about-2 .content-block .media h4 {
   font-size: 16px;
   font-weight: 600;

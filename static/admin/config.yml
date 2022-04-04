@@ -99,3 +99,9 @@ collections:
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" }
             ] } ] }
+  - name: "jobs"
+    label: "Jobs"
+    create: true
+    folder: "content/deutsch/karriere/jobs"
+    fields:
+      -  { label: "Titel", name: "title", widget: "string"}

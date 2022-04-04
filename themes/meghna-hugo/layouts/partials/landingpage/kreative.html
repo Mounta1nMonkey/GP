@@ -1,0 +1,124 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ $kreative := $data.kreative.kreative }}
+{{ $terrazzo := $data.terrazzo.terrazzo }}
+{{ $spachtel := $data.sichtspachtelmasse.sichtspachtelmasse }}
+
+{{ with $kreative  }}
+<section>
+    <div class="container-fluid">
+        <div class="row justify-content-center p-5">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h2> {{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+                    {{ with .title }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            <div class="col-8 text-center">
+                <p>{{ .content }}</p>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+        </div>
+        {{ end }}
+
+        {{ if $terrazzo.enable }}
+        {{ with $terrazzo }}
+        {{"<!-- terrazzo -->" | safeHTML}}
+
+        <div class="row">
+            <div class="col-lg-5 padding-0" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
+                <!-- this image is for trigger this section fallback background image -->
+                <img src="{{ .image_webp | absURL }}" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'">
+            </div>
+            <div class="col-lg-7">
+                <div class="" style="padding:50px">
+                    <div class="row mb-4">
+                        <div class="col-lg-12 mb-5">
+                            {{"<!-- section title -->" | safeHTML}}
+                            <div class="title wow fadeIn" data-wow-duration="1500ms" style="padding-bottom: 0">
+                                <h2 class="section-title-border-half mb-5"> {{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+                            {{ with .title }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
+                            </div>
+                            <p>{{ .content }}</p>
+                        </div>
+                        {{"<!-- /section title -->" | safeHTML}}
+                        {{ range .benefits }}
+                        <div class="col-lg-6">
+                            <div class="media">
+                                {{with .icon}}
+                                <div class="align-self-start mr-3" style="width:30px; heigth:30px">
+                                    <i class="{{ . }}"></i>
+                                </div>
+                                {{ end }}
+                                <div class="media-body">
+                                    <h4 class="media-heading">{{ .title | markdownify }}</h4>
+                                    <p>{{ .content | markdownify }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                    {{ if .button }}
+                    <a data-duration-in="0.5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in="1"
+                       href="{{ .button.link | relLangURL }}" class="btn btn-one text-uppercase"><span>{{ .button.label }}</span></a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{"<!-- /feature -->" | safeHTML}}
+        {{ end }}
+        {{ end }}
+
+        {{ if $spachtel.enable }}
+        {{ with $spachtel }}
+        {{"<!-- feature -->" | safeHTML}}
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="" style="padding:50px">
+                        <div class="row mb-4">
+                            <div class="col-lg-12 mb-5">
+                                {{"<!-- section title -->" | safeHTML}}
+                                <div class="title wow fadeIn" data-wow-duration="1500ms" style="padding-bottom: 0">
+                                    <h2 class="section-title-border-half mb-5"> {{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+                {{ with .title }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
+
+                                </div>
+                                <p>{{ .content }}</p>
+
+                                {{"<!-- /section title -->" | safeHTML}}
+                            </div>
+                            {{ range .benefits }}
+                            <div class="col-lg-6">
+                                <div class="media">
+                                    {{with .icon}}
+                                    <div class="align-self-start mr-3" style="width:30px; heigth:30px">
+                                        <i class="{{ . }}"></i>
+                                    </div>
+                                    {{ end }}
+                                    <div class="media-body">
+                                        <h4 class="media-heading">{{ .title | markdownify }}</h4>
+                                        <p>{{ .content | markdownify }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                        {{ if .button }}
+                        <a data-duration-in="0.5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in="1"
+                           href="{{ .button.link | relLangURL }}" class="btn btn-one text-uppercase"><span>{{ .button.label }}</span></a>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="col-lg-5 padding-0" style="background-image: url('{{ .image_webp | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
+                    <!-- this image is for trigger this section fallback background image -->
+                    <img src="{{ .image_webp | absURL }}" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .image | absURL }})'">
+                </div>
+            </div>
+        {{"<!-- /feature -->" | safeHTML}}
+        {{ end }}
+        {{ end }}
+
+
+    </div>
+</section>

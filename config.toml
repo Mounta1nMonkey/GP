@@ -47,18 +47,8 @@ link = "plugins/google-map/map.js"
 
 ################### Deutsch Navigation ########################
 [[Languages.de.menu.main]]
-name = "Terrazzo"
-url = "terrazzo"
-weight = 1
-
-[[Languages.de.menu.main]]
-name = "Sichtspachtelmasse"
-url = "sichtspachtelmasse"
-weight = 2
-
-[[Languages.de.menu.main]]
 name = "Professional"
-weight = 3
+weight = 1
 hasChildren = true
 
 [[Languages.de.menu.main]]
@@ -85,21 +75,37 @@ name = "Sonderkonstruktion"
 url = "sonderkonstruktion"
 weight = 4
 
+[[Languages.de.menu.main]]
+name = "Kreative"
+weight = 2
+hasChildren = true
+
+[[Languages.de.menu.main]]
+parent = "Kreative"
+name = "Terrazzo"
+url = "terrazzo"
+weight = 1
+
+[[Languages.de.menu.main]]
+parent = "Kreative"
+name = "Sichtspachtelmasse"
+url = "sichtspachtelmasse"
+weight = 2
 
 [[Languages.de.menu.main]]
 name = "Karriere"
 url = "karriere"
-weight = 4
+weight = 3
 
 [[Languages.de.menu.main]]
 name = "Team"
 url = "team"
-weight = 5
+weight = 4
 
 [[Languages.de.menu.main]]
 name = "Kontakt"
 url = "kontakt"
-weight = 6
+weight = 5
 
 
 
@@ -208,6 +214,7 @@ weight = 8
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo.png"
+logo2 = "images/logo2.png"
 # Meta data
 description = "G&P Estrich & Terrazzo Website"
 author = "Mountain Monkey"

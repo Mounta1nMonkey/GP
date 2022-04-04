@@ -1,13 +1,15 @@
 <section class="sticky-top navigation">
 	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand p-0" href="{{ .Site.BaseURL | relLangURL }}">
-				{{ if site.Params.logo }}
-				<img class="lozad" data-src="{{ site.Params.logo | absURL }}" alt="{{ .Site.Title }}" height="62">
-				{{ else }}
-				{{ site.Title }}
-				{{ end }}
-			</a>
+		<nav class="navbar navbar-expand-lg navbar-dark" style="padding: 1rem 1rem">
+            <a class="p-0" href="{{ .Site.BaseURL | relLangURL }}">
+            <div class="text-center pt-3" style="position:absolute; background-color: #192634; height: 130px; width: 150px; top:20px; box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.4);">
+                {{ if site.Params.logo }}
+                <img class="lozad" data-src="{{ site.Params.logo2 | absURL }}" alt="{{ .Site.Title }}" height="90">
+                {{ else }}
+                {{ site.Title }}
+                {{ end }}
+            </div>
+            </a>
 
 			<button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation">
 				<span class="navbar-toggler-icon"></span>
