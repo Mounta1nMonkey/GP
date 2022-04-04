@@ -12,4 +12,4 @@ cta:
   button:
     enable : true
     label : "Jobangebote"
-    link : "jobs"
+    link : "karriere"
