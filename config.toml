@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "/"
-title = "G+P Estrich & Terrazzo"
+title = "GP Estrich & Terrazzo"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
