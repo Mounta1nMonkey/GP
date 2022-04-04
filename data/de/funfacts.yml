@@ -1,24 +1,16 @@
-################################# funfacts ##################################
 funfacts:
-  enable : true
-  bg_image: "images/startseite/kabiur-rahman-riyad-TVTAc8NQdjQ-unsplash.jpg"
+  enable: true
+  bg_image: images/startseite/kabiur-rahman-riyad-TVTAc8NQdjQ-unsplash.jpg
   counter_item:
-    # counter item loop
-    - title : "Projekte '22"
-      icon : "ti-ruler-alt" # themify icon pack : https://themify.me/themify-icons
-      count : "320"
-    
-    # counter item loop
-    - title : "Projects completed"
-      icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
-      count : "350"
-    
-    # counter item loop
-    - title : "Emails beantwortet"
-      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
-      count : "158"
-    
-    # counter item loop
-    - title : "Cups of Coffee"
-      icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
-      count : "250"
+    - title: Projekte '22
+      icon: ti-ruler-alt
+      count: "320"
+    - title: Tonnen Estrich
+      icon: ti-home
+      count: "70"
+    - title: Emails beantwortet
+      icon: ti-email
+      count: "158"
+    - title: Cups of Coffee
+      icon: ti-gift
+      count: "250"
