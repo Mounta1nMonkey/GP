@@ -21,6 +21,8 @@ contact:
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
       info : "Email: hello@meghna.com"
 
+  map: images/uploads/map.png
+
 
   # Contact form
   contact_form:

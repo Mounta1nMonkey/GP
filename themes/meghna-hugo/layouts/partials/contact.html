@@ -38,20 +38,9 @@
 			</div>
 
 
-			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3>{{ .subtitle2 | markdownify }}</h3>
-				<p> {{ .content2 | markdownify }} </p>
+			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms"
+			style='background-image: url("{{ .map | absURL }} ");background-size: cover; height: 70vh'>
 
-				{{ if .contact_form.enable }}
-				<div class="contact-details">
-					{{ range .contact_list }}
-					<div class="con-info clearfix">
-						<i class="{{ .icon }}"></i>
-						<span>{{ .info }}</span>
-					</div>
-					{{ end }}
-				</div>
-				{{ end }}
 			</div>
 		</div>
 	</div>
