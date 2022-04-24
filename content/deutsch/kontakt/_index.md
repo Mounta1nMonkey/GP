@@ -2,6 +2,6 @@
 title: Kontakt
 banner:
     title: Kontakt
-    content: Lorem Ipsum
-    bg_image: images/uploads/annie-spratt-goholCAVTRs-unsplash.jpg
+    content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    bg_image: images/uploads/javier-miranda-MrWOCGKFVDg-unsplash.jpg
 ---

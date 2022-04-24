@@ -13,7 +13,18 @@
             {{"<!-- /section title -->" | safeHTML}}
 
             {{ range (where site.RegularPages "Section" "==" "karriere")}}
-            {{ .Render "article"}}
+            <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
+                <div class="post-block h-100">
+                    <div class="media-wrapper" style="min-height: 226px; background: url('{{ .Params.image | absURL }}'); background-size: cover">
+                    </div>
+
+                    <div class="content">
+                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                        <p>{{ .Params.teaser }}</p>
+                        <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
+                    </div>
+                </div>
+            </article>
             {{ end }}
 
         </div>

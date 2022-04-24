@@ -1,0 +1,29 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $slides := $data.slider  }}
+
+{{ "<!-- hero slider -->" | safeHTML }}
+<section id="heroSlider" class="h-100">
+    <div class="hero-slider no-nav position-relative">
+        {{ "<!-- slider item -->" | safeHTML }}
+        {{ range $slides.slider_Item }}
+        <div class="hero-slider-item overlay-light hero-area d-flex align-items-center" style="position: relative; height:90vh; background-image: url('{{ .bg_image | absURL }}')" title="{{ .title }}" >
+
+                        <div class="block col-8">
+                            {{ if .icon }}
+                            <div class="video-button">
+                                <i class="{{ .icon }}"></i>
+                            </div>
+                            {{ end }}
+                            <h1>{{ .title | markdownify }}</h1>
+                            <p class="mb-5">{{ .content | markdownify }}</p>
+                            {{ if .button.enable }}
+                            {{ with .button }}
+                            <a href="{{ .link }}" class="btn btn-one page-scroll"><span>{{ .label }}</span></a>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+
+        </div>
+        {{ end }}
+    </div>
+</section>

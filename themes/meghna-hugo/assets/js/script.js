@@ -66,6 +66,24 @@ jQuery(function ($) {
 		autoplaySpeed: 4000
 	});
 
+	//Benefit Slider
+	$('.hero-slider.no-nav').slick({
+		autoplay: true,
+		infinite: true,
+		dots: false,
+		autoplaySpeed: 10000,
+		arrows: true,
+		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-double-left iconSlider\'></i></button>',
+		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-double-right iconSlider\'></i></button>',
+		responsive: [{
+			breakpoint: 576,
+			settings: {
+				arrows: false
+			}
+		}]
+	});
+	$('.hero-slider.no-nav').slickAnimation();
+
 	/* ========================================================================= */
 	/*	animation scroll js
 	/* ========================================================================= */

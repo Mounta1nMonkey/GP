@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-color: #1b242d;
+  background-color: #2d3540;
   font-family: "Source Sans Pro", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
@@ -410,7 +410,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #192634;
+  background-color: #202124;
   width: 100%;
   margin-bottom: 0;
 }
@@ -714,20 +714,21 @@ a:hover {
 
 .form-meghna input:hover,
 .form-meghna textarea:hover {
-  border-color: #57cbcc;
+  border-color: #ffffff;
 }
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #495057;
   padding: 12px 0;
   width: 100%;
   margin: 0;
 }
 
 #contact-submit:hover {
-  border-color: #2c9091;
-  background-color: #2c9091;
+  border-color: #fff;
+  background-color: #fff;
+  color: #0b0b0b;
 }
 
 .form-meghna ::placeholder {

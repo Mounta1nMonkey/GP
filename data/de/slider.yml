@@ -1,0 +1,22 @@
+enable: true
+slider_Item:
+  - bg_image: images/uploads/emma-raphael-ttS--i2y9Bo-unsplash.jpg
+    icon: ""
+    title: Estrich die Welt, weil geil! Hallo Welt
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+      excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam
+      sapiente!
+    button:
+      enable: true
+      label: Explore Us
+      link: kontakt
+  - bg_image: images/uploads/emma-raphael-ttS--i2y9Bo-unsplash.jpg
+    icon: ""
+    title: Estrich die Welt, weil immer noch geil!
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+      excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam
+      sapiente!
+    button:
+      enable: true
+      label: Explore Us
+      link: kontakt
