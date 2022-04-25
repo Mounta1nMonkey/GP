@@ -1,13 +1,10 @@
 ---
-title: Datenschutz
+title: Datenschutzerklärung
 banner:
-  title: Datenschutz
+  title: Datenschutzerklärung
   content: Ihre Privatsphäre ist uns wichtig
   bg_image: images/uploads/markus-spiske-vrbZVyX2k4I-unsplash.jpg
 text: >-
-  # Datenschutzerklärung
-
-
   ## 1. Datenschutz auf einen Blick
 
 
