@@ -107,6 +107,22 @@ name = "Kontakt"
 url = "kontakt"
 weight = 5
 
+################### Deutsch Navigation Footer ########################
+
+[[Languages.de.menu.footer]]
+name = "Kontakt"
+url = "kontakt"
+weight = 1
+
+[[Languages.de.menu.footer]]
+name = "Impressum"
+url = "impressum"
+weight = 2
+
+[[Languages.de.menu.footer]]
+name = "Datenschutz"
+url = "datenschutz"
+weight = 3
 
 
 
@@ -259,10 +275,6 @@ icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
 [[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
 icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
@@ -273,7 +285,7 @@ languageCode = "De-de"
 contentDir = "content/deutsch"
 weight = 1
 home = "Heim"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2022 Designed & Developed by [Mountain Monkey](https://mountain-monkey.org)"
 
 
 ################################ English Language ########################

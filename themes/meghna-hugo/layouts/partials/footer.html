@@ -1,9 +1,39 @@
 {{"<!-- end Contact Area -->" | safeHTML}}
-<footer id="footer" class="section-bg">
-	<div class="container">
-		<div class="row wow fadeInUp" data-wow-duration="500ms">
-			<div class="col-xl-12">
+<footer id="footer" class="section-bg" style="background-color: #202124" >
 
+	<div class="container">
+
+		<div class="row">
+			<div class="col-lg-3 pl-0 mb-5 pt-5">
+				<a href="{{ site.Home.Permalink }}">
+					<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="80" />
+				</a>
+
+			</div>
+			<div class="col-lg-6" >
+				<nav class="navbar navbar-expand-lg navbar-dark" style="padding: 1rem 1rem">
+
+					<div class="collapse navbar-collapse" id="navigation2">
+						<ul class="navbar-nav mx-auto mt-5">
+							<!-- menu active -->
+							{{ $currentPage := . }}
+							{{ range site.Menus.footer }}
+							{{ $menuURL := .URL | absLangURL }}
+							{{ $pageURL:= $currentPage.Permalink | absLangURL }}
+							{{ $active := eq $menuURL $pageURL }}
+
+							<li class="nav-item">
+								<a style="font-weight:100" class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+								   href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Name}}</a>
+							</li>
+
+							{{ end }}
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+			<div class="col-lg-3 pt-4">
 				{{"<!-- Footer Social Links -->" | safeHTML}}
 				<div class="social-icon">
 					<ul class="list-inline">
@@ -13,17 +43,19 @@
 					</ul>
 				</div>
 
-				{{"<!-- copyright -->" | safeHTML}}
-				<div class="copyright text-center">
-					<a href="{{ site.Home.Permalink }}">
-						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="42" />
-					</a>
-					<br>
-					<p>{{ site.Params.copyright | markdownify }}</p>
-				</div>
 			</div>
+
 		</div>
 	</div>
+
+		<div style="width:100%; height: 1px; background-color: #5f656b"></div>
+
+	<div class="container">
+		<div class="row pt-4 justify-content-center text-center">
+			<p style="font-size: 9pt; color: rgba(255,255,255,.5)">{{ site.Params.copyright | markdownify }}</p>
+		</div>
+	</div>
+
 </footer>
 {{"<!-- /footer -->" | safeHTML}}
 

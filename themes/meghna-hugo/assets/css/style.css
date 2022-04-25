@@ -1540,7 +1540,7 @@ input#e-mail,
   Footer section
 ==================================================================*/
 .social-icon {
-  padding: 60px 0 35px;
+  padding: 40px 0 15px;
 }
 
 .social-icon ul {
@@ -1555,25 +1555,26 @@ input#e-mail,
   background-color: #26292e;
   border: 1px solid transparent;
   display: block;
-  height: 70px;
-  width: 70px;
+  height: 35px;
+  width: 35px;
   transition: all 400ms ease-out 0s;
 }
 
 .social-icon ul li a:hover {
-  background: #57cbcc;
+  background: #c7c7c7;
 }
 
 .social-icon ul li a:hover i {
-  color: #fff;
+  color: #1d1d1d;
   opacity: 1;
 }
+
 
 .social-icon ul li a i {
   color: #55606a;
   display: inline-block;
-  font-size: 32px;
-  line-height: 70px;
+  font-size: 20px;
+  line-height: 33px;
   margin: 0;
   opacity: 0.3;
   transition: all 400ms ease-out 0s;
