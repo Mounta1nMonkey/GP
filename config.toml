@@ -108,21 +108,25 @@ url = "kontakt"
 weight = 5
 
 ################### Deutsch Navigation Footer ########################
+[[Languages.de.menu.footer]]
+name = "Karriere"
+url = "karriere"
+weight = 1
 
 [[Languages.de.menu.footer]]
 name = "Kontakt"
 url = "kontakt"
-weight = 1
+weight = 2
 
 [[Languages.de.menu.footer]]
 name = "Impressum"
 url = "impressum"
-weight = 2
+weight = 3
 
 [[Languages.de.menu.footer]]
 name = "Datenschutz"
 url = "datenschutz"
-weight = 3
+weight = 4
 
 
 
