@@ -11,26 +11,26 @@ data: |-
 
   ### Angaben gemäß § 5 TMG
 
-  IntelliSoftware GmbH\
-  Cargo City Süd / Gebäude 638 A\
-  60549 Frankfurt – Flughafen
+  GP Estrich & Terrazzo GmbH\
+  Akazienweg 6\
+  60549 Frankfurt
 
-  Handelsregister: HRB105365\
-  Registergericht: Frankfurt am Main
+  Handelsregister: XXXX\
+  Registergericht: Darmstadt
 
   **Vertreten durch:**\
-  Davide Ludewig
+  MArcel Gtze
 
   ### Kontakt
 
-  Telefon: 069 – 5308 4390 20\
-  Fax: 069 – 5308 4390 21\
-  E-Mail: info\[at]intellisoftware(dot)de
+  Telefon: XXX\
+  Fax: xxxx\
+  E-Mail: xxx
 
   ### Umsatzsteuer-ID
 
   Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:\
-  DE 306567013
+  DEx xxx
 text: >-
   ### Streitschlichtung
 
