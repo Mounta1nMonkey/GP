@@ -8,19 +8,33 @@ collections:
     label: "Startseite"
     files:
       - file: "data/de/banner.yml"
-        label: "Hero Banner"
-        name: "herobanner"
+        label: "Hero Slider"
+        name: "heroslider"
         fields:
-          - { label: "Banner", name: "banner", widget: "object", fields: [
-            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+          - { label: "Slides", name: "slider_Item", widget: "list", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Icon", name: "icon", widget: "hidden", default: "" },
             { label: "Titel", name: "title", widget: "string" },
             { label: "Content", name: "content", widget: "text" },
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Aktive", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" }
-            ]}]}
+            ] } ] }
+      - file: "data/de/professional.yml"
+        label: "Professional"
+        name: "professional"
+        fields:
+          - { label: "Professional", name: "professional", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Content", name: "content", widget: "text" },
+            { label: "Items", name: "items", widget: "list", fields: [
+              { label: "Icon", name: "icon", widget: "string" },
+              { label: "Titel", name: "item", widget: "string" },
+              { label: "Content", name: "content", widget: "text" },
+              { label: "Image", name: "bg_image", widget: "image" }
+            ] } ] }
       - file: "data/de/funfacts.yml"
         label: "Funfacts"
         name: "funfacts"
@@ -33,6 +47,14 @@ collections:
               { label: "Icon", name: "icon", widget: "string" },
               { label: "Count", name: "count", widget: "string" }
             ] } ] }
+      - file: "data/de/kreative.yml"
+        label: "Kreative"
+        name: "kreative"
+        fields:
+          - { label: "Kreative", name: "kreative", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Content", name: "content", widget: "text" }]}
       - file: "data/de/terrazzo.yml"
         label: "Terrazzo"
         name: "terrazzo"
@@ -71,23 +93,23 @@ collections:
               { label: "Link", name: "link", widget: "string" },
               { label: "Label", name: "label", widget: "string" }
             ] } ] }
-      - file: "data/de/professional.yml"
-        label: "Professional"
-        name: "professional"
-        fields:
-          - { label: "Professional", name: "professional", widget: "object", fields: [
-            { label: "Aktive", name: "enable", widget: "boolean", default: true },
-            { label: "Title", name: "title", widget: "string" },
-            { label: "Content", name: "content", widget: "text" },
-            { label: "Items", name: "items", widget: "list", fields: [
-              { label: "Icon", name: "icon", widget: "string" },
-              { label: "Titel", name: "item", widget: "string" },
-              { label: "Content", name: "content", widget: "text" },
-              { label: "Image", name: "bg_image", widget: "image" }
-            ] } ] }
       - file: "data/de/jobscta.yml"
         label: "Jobs CTA"
         name: "jobscta"
+        fields:
+          - { label: "CTA", name: "cta", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Image", name: "bg_image", widget: "image" },
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Content", name: "content", widget: "markdown" },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Aktive", name: "enable", widget: "boolean", default: true },
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" }
+            ] } ] }
+      - file: "data/de/kontaktcta.yml"
+        label: "Kontakt CTA"
+        name: "kontaktcta"
         fields:
           - { label: "CTA", name: "cta", widget: "object", fields: [
             { label: "Aktive", name: "enable", widget: "boolean", default: true },

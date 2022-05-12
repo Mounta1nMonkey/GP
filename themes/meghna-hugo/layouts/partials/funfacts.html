@@ -1,5 +1,6 @@
 {{ $data := index site.Data site.Language.Lang }}
 
+<!-- TODO reaprieren -->
 {{ if $data.funfacts.funfacts.enable }}
 {{ with $data.funfacts.funfacts }}
 <section class="section" style='min-height:300px; padding-top: 50px; padding-bottom: 50px; background-image: url("{{ .bg_image | absURL }}"); background-size: cover'>
