@@ -12,9 +12,9 @@ collections:
         name: "heroslider"
         fields:
           - { label: "Slides", name: "slider_Item", widget: "list", fields: [
+            { label: "Titel", name: "title", widget: "string" },
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Icon", name: "icon", widget: "hidden", default: "" },
-            { label: "Titel", name: "title", widget: "string" },
             { label: "Content", name: "content", widget: "text" },
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Aktive", name: "enable", widget: "boolean", default: true },
