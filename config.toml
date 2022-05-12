@@ -54,25 +54,25 @@ hasChildren = true
 [[Languages.de.menu.main]]
 parent = "Professional"
 name = "Industrieböden"
-url = "industrieboeden"
+url = "comingsoon"
 weight = 1
 
 [[Languages.de.menu.main]]
 parent = "Professional"
 name = "Beschichtungen"
-url = "beschichtungen"
+url = "comingsoon"
 weight = 2
 
 [[Languages.de.menu.main]]
 parent = "Professional"
 name = "Schnellzementestrich"
-url = "schnellzementestrich"
+url = "comingsoon"
 weight = 3
 
 [[Languages.de.menu.main]]
 parent = "Professional"
 name = "Sonderkonstruktion"
-url = "sonderkonstruktion"
+url = "comingsoon"
 weight = 4
 
 [[Languages.de.menu.main]]
@@ -83,13 +83,13 @@ hasChildren = true
 [[Languages.de.menu.main]]
 parent = "Kreative"
 name = "Terrazzo"
-url = "terrazzo"
+url = "comingsoon"
 weight = 1
 
 [[Languages.de.menu.main]]
 parent = "Kreative"
 name = "Sichtspachtelmasse"
-url = "sichtspachtelmasse"
+url = "comingsoon"
 weight = 2
 
 [[Languages.de.menu.main]]
@@ -99,7 +99,7 @@ weight = 3
 
 [[Languages.de.menu.main]]
 name = "Team"
-url = "team"
+url = "comingsoon"
 weight = 4
 
 [[Languages.de.menu.main]]
