@@ -1,16 +1,14 @@
 ---
-title: Estrichleger*In (m/w/x)
+title: Estrichleger*In (m/w/d)
 image: images/uploads/silvia-brazzoduro-YSxcf6C_SEg-unsplash.jpg
-teaser: Estrichleger/innen stellen Fußböden aus Estrich her, die entweder als
-  Unterböden mit Belägen versehen werden können oder als unmittelbare Nutzböden
-  dienen. Sie bauen Wärme-, Kälte- und Dämmschutzstoffe ein und verlegen ggf.
-  Fußbodenbeläge.
-beschreibung: Estrichleger legen Estrich als Unterböden und Nutzböden. Sie bauen
+teaser: Estrichleger legen Estrich als Unterböden und Nutzböden. Sie bauen
   Wärme- und Schalldämmungen ein und verlegen andere Fußbodenbeläge. Sie
   bereiten Untergründe vor, stellen Estrichmörtel her und verarbeiten ihn. Sie
   sind im Neubau und in der Sanierung von Gebäuden tätig. Typische Arbeitgeber
   sind spezialisierte Estrichverlegebetriebe sowie Hoch- und Ausbauunternehmen,
   die Estrichverlegearbeiten anbieten.
+beschreibung: "Die Firma GP Estrich & Terrazzo GmbH ist ein mittelständiges
+  Unternehmen mit Sitz in Alsbach-Hähnlein. "
 aufgaben:
   - item: Herstellung und Verarbeitung von Estrichmörtel
   - item: Verlegen verschiedener Oberböden
