@@ -1,0 +1,17 @@
+title: Das sind wir!
+content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+
+        magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+image: "images/uploads/Unternehmen.png"
+benefits:
+  - icon: "ti-plus"
+    title: Weil Geil
+    content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  - icon: "ti-plus"
+    title: Kostenlosen Kaffee
+    content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+  - icon: "ti-plus"
+    title: coolen Chef
+    content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."

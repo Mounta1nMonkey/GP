@@ -32,6 +32,7 @@ h6 {
 
 p {
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.8rem !important;
 }
 
 [scroll-behavior=smooth] {
