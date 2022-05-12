@@ -7,7 +7,7 @@ collections:
   - name: "startseite"
     label: "Startseite"
     files:
-      - file: "data/de/banner.yml"
+      - file: "data/de/slider.yml"
         label: "Hero Slider"
         name: "heroslider"
         fields:
