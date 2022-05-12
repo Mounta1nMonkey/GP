@@ -107,6 +107,19 @@ collections:
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" }
             ] } ] }
+      - file: "data/de/teamTeaser.yml"
+        label: "Team Teaser"
+        name: "teamteaser"
+        fields:
+          - { label: "Team", name: "team", widget: "object", fields: [
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Image", name: "bg_image", widget: "image" },
+            { label: "Content", name: "content", widget: "markdown" },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Aktive", name: "enable", widget: "boolean", default: true },
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" }
+            ] } ] }
       - file: "data/de/kontaktcta.yml"
         label: "Kontakt CTA"
         name: "kontaktcta"
