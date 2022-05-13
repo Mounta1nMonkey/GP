@@ -21,6 +21,7 @@ profil:
   - item: Flexibilität
   - item: Lernbereitschaft
   - item: Zuverlässigkeit
+  - item: C/CE Führerschein
 bieten:
   - item: Unterschiedliche Einsätze in ganz Deutschland
   - item: Übernahme der Kosten für arbeitsmedizinische Untersuchungen
