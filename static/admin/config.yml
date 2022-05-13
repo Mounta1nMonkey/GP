@@ -156,6 +156,19 @@ collections:
       ]}
       - { label: "Buttonlink", name: "buttonlink", widget: "hidden", default: "kontakt"}
       - { label: "Buttonlabel", name: "buttonlabel", widget: "hidden", default: "Jetzt bewerben"}
+  - name: "anprechpartner"
+    label: "Ansprechpartner"
+    files:
+      - file: "data/de/valentina.yml"
+        label: "valentina"
+        name: "Valentina"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Telefonnummerr", name: "tel", widget: "string" }
+          - { label: "Handynummer", name: "mob", widget: "string" }
+          - { label: "Mail", name: "mail", widget: "string" }
+          - { label: "Bild", name: "image", widget: "image" }
+          - { label: "Titel", name: "titel", widget: "string" }
   - name: "impressum"
     label: "Impressum"
     files:
