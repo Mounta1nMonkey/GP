@@ -159,6 +159,7 @@ collections:
   - name: "anprechpartner"
     label: "Ansprechpartner"
     files:
+      - file: ""
   - name: "impressum"
     label: "Impressum"
     files:
