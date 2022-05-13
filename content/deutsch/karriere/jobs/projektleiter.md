@@ -7,6 +7,9 @@ image: images/uploads/emmanuel-ikwuegbu-zWOgsj3j0wA-unsplash.jpg
 teaser: "Die Firma GP Estrich & Terrazzo GmbH ist ein mittelständiges
   Unternehmen mit Sitz in Alsbach-Hähnlein. Wir suchen zum nächstmöglichen
   Zeitpunkt wie folgt:"
+headline: "Die Firma GP Estrich & Terrazzo GmbH ..."
+beschreibung: "... ist ein mittelständiges
+  Unternehmen mit Sitz in Alsbach-Hähnlein. "
 aufgaben:
   - item: Koordiantion interner Ressourcen
   - item: "Planung und Durchführung verschiedener Projekte "
@@ -32,4 +35,7 @@ bieten:
   - item: intensive Einarbeitung durch erfahrene Kollegen
   - item: Aufstiegsmöglichkeiten
   - item: Nutzung eines Firmenfahrzeugs
+
+buttonlink: kontakt
+buttonlabel: Jetzt bewerben
 ---

@@ -1,0 +1,74 @@
+{{ define "main" }}
+
+{{ $data := .Params }}
+
+{{ $allData := index site.Data site.Language.Lang }}
+
+{{ partial "navigation.html" . }}
+
+{{ partial "karriere/bannerJobs.html" . }}
+
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 pt-5 pb-5 text-center">
+                <h3>{{ .Params.headline }}</h3>
+                <p> {{ .Params.beschreibung }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-5 pb-2">
+                <h3>Deine Aufgaben:</h3>
+                <ul>
+                    {{ range .Params.aufgaben }}
+                    <li>{{ .item }}</li>
+                    {{ end}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-2 pb-2">
+                <h3>Das bringst du mit:</h3>
+                <ul>
+                    {{ range .Params.profil }}
+                    <li>{{ .item }}</li>
+                    {{ end}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-2 pb-2">
+                <h4>Was erwartet dich bei uns:</h4>
+                <ul>
+                    {{ range .Params.bieten }}
+                    <li>{{ .item }}</li>
+                    {{ end}}
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a class="btn btn-one text-white" href="{{ .Params.buttonlink | relLangURL }}">{{ .Params.buttonlabel}}</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ partial "ansprechpartner.html" $allData.ansprechpartner.ansprechpartner.valentina }}
+
+{{ end }}

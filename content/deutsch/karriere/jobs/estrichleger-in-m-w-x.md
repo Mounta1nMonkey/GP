@@ -7,7 +7,8 @@ teaser: Estrichleger legen Estrich als Unterböden und Nutzböden. Sie bauen
   sind im Neubau und in der Sanierung von Gebäuden tätig. Typische Arbeitgeber
   sind spezialisierte Estrichverlegebetriebe sowie Hoch- und Ausbauunternehmen,
   die Estrichverlegearbeiten anbieten.
-beschreibung: "Die Firma GP Estrich & Terrazzo GmbH ist ein mittelständiges
+headline: "Die Firma GP Estrich & Terrazzo GmbH ..."
+beschreibung: "... ist ein mittelständiges
   Unternehmen mit Sitz in Alsbach-Hähnlein. "
 aufgaben:
   - item: Herstellung und Verarbeitung von Estrichmörtel
@@ -38,4 +39,8 @@ bieten:
   - item: intensive Einarbeitung durch erfahrene Kollegen
   - item: Aufstiegsmöglichkeiten
   - item: Nutzung eines Firmenfahrzeugs
+
+buttonlink: kontakt
+buttonlabel: Jetzt bewerben
+
 ---

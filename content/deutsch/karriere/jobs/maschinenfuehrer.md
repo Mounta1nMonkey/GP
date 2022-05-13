@@ -2,6 +2,9 @@
 title: LKW Fahrer*in / Baumaschinenführer*In (m/w/d)
 image: images/uploads/bagger-fahren-taufkirchen-bg1.jpg
 teaser: " "
+headline: "Die Firma GP Estrich & Terrazzo GmbH ..."
+beschreibung: "... ist ein mittelständiges
+  Unternehmen mit Sitz in Alsbach-Hähnlein. "
 beschreibung: "Die Firma GP Estrich & Terrazzo GmbH ist ein mittelständiges
   Unternehmen mit Sitz in Alsbach-Hähnlein. Wir suchen zum nächstmöglichen
   Zeitpunkt wie folgt:"
@@ -29,4 +32,7 @@ bieten:
   - item: intensive Einarbeitung durch erfahrene Kollegen
   - item: Aufstiegsmöglichkeiten
   - item: Nutzung eines Firmenfahrzeugs
+
+buttonlink: kontakt
+buttonlabel: Jetzt bewerben
 ---
