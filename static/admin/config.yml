@@ -142,6 +142,8 @@ collections:
       - { label: "Titel", name: "title", widget: "string"}
       - { label: "Bild", name: "image", widget: "image"}
       - { label: "Teaser", name: "teaser", widget: "text"}
+      - { label: "Headline", name: "headline", widget: "string"}
+      - { label: "Beschreibung", name: "beschreibung", widget: "text"}
       - { label: "Beschreibung", name: "beschreibung", widget: "text"}
       - { label: "Ihre Aufgaben", name: "aufgaben", widget: "list", fields: [
         { label: "Punkt", name: "item", widget: "string"}
@@ -152,6 +154,8 @@ collections:
       - { label: "Wir bieten", name: "bieten", widget: "list", fields: [
         { label: "Punkt", name: "item", widget: "string"}
       ]}
+      - { label: "Buttonlink", name: "buttonlink", widget: "hidden", default: "kontakt"}
+      - { label: "Buttonlink", name: "buttonlabel", widget: "hidden", default: "Jetzt bewerben"}
   - name: "impressum"
     label: "Impressum"
     files:
