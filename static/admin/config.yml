@@ -159,8 +159,28 @@ collections:
     label: "Ansprechpartner"
     files:
       - file: "data/de/valentina.yml"
-        label: "valentina"
-        name: "Valentina"
+        label: "Valentina"
+        name: "valentina"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Telefonnummerr", name: "tel", widget: "string" }
+          - { label: "Handynummer", name: "mob", widget: "string" }
+          - { label: "Mail", name: "mail", widget: "string" }
+          - { label: "Bild", name: "image", widget: "image" }
+          - { label: "Titel", name: "titel", widget: "string" }
+      - file: "data/de/thorsten.yml"
+        label: "Thorsten"
+        name: "thorsten"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Telefonnummerr", name: "tel", widget: "string" }
+          - { label: "Handynummer", name: "mob", widget: "string" }
+          - { label: "Mail", name: "mail", widget: "string" }
+          - { label: "Bild", name: "image", widget: "image" }
+          - { label: "Titel", name: "titel", widget: "string" }
+      - file: "data/de/marcel.yml"
+        label: "Marcel"
+        name: "marcel"
         fields:
           - { label: "Name", name: "name", widget: "string" }
           - { label: "Telefonnummerr", name: "tel", widget: "string" }
